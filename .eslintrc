@@ -1,0 +1,35 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "mocha": true,
+    "atomtest": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": [
+      1,
+      "single"
+    ],
+    "strict": [
+      2,
+      "never"
+    ],
+    "semi": [
+      0,
+      "always"
+    ],
+    "no-unused-vars": [
+      1
+    ],
+    "no-alert": 0
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Promise": true
+  }
+}
