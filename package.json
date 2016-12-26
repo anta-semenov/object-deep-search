@@ -1,6 +1,6 @@
 {
   "name": "object-deep-search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Search through object properties recursevly with a complex filter.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,9 @@
     "babel-preset-stage-0": "^6.16.0",
     "eslint": "^3.12.2",
     "jest": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anta-semenov/object-deep-search.git"
   }
 }
