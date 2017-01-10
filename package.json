@@ -11,7 +11,8 @@
     "object",
     "deep",
     "filter",
-    "find"
+    "find",
+    "react-test-renderer"
   ],
   "author": "Anton Semenov",
   "license": "MIT",
