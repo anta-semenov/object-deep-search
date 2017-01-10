@@ -1,6 +1,6 @@
 {
   "name": "object-deep-search",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Search through object properties recursevly with a complex filter.",
   "main": "lib/index.js",
   "scripts": {
