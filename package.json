@@ -1,10 +1,13 @@
 {
   "name": "object-deep-search",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Search through object properties recursevly with a complex filter.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib --ignore test.js",
+    "prepublish": "npm run clean && npm run build"
   },
   "keywords": [
     "search",

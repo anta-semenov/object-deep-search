@@ -30,7 +30,7 @@ Return first property of object that match the filter.
 Main reason for creating this package was to help with react testing. React-test-renderer renders React components to pure JavaScript objects. And if we need to simulate click on button we should find this button in component tree.
 
 ```js
-import {findFirst} from 'deep-object-search'
+import {findFirst} from 'object-deep-search'
 ...
 
 const component = renderer.create(<TestComponent/>)
