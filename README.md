@@ -22,9 +22,9 @@ Return first property of object that match the filter.
 
 * *Filter* - object that defines structure (keys and values) to search. If property of object has all keys that filter has (property can also contain other keys) and this keys has the same values, the property will be returned as matched.
 
-  In case if filter key is Array (see children in [examples](#examples)). Value of object property should have all items that filter value has.
+  In case if filter key is Array (see children in examples). Value of object property should have all items that filter value has.
 
-<a name="examples"/>
+
 #### Examples
 
 Main reason for creating this package was to help with react testing. React-test-renderer renders React components to pure JavaScript objects. And if we need to simulate click on button we should find this button in component tree.
