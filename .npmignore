@@ -1,4 +1,5 @@
 # dependencies
+src
 node_modules
 .lock
 yarn.lock
