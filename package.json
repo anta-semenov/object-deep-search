@@ -1,7 +1,7 @@
 {
   "name": "object-deep-search",
   "version": "0.0.7",
-  "description": "Search through object properties recursevly with a complex filter.",
+  "description": "Search through object properties recursively with a complex filter.",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
